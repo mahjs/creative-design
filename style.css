@@ -644,14 +644,14 @@ body {
 
   .scroll-up-btn {
     bottom: 2rem;
-    right: -2rem;
+    right: -4rem;
   }
 
   .scroll-up-btn.show {
     right: 2rem;
   }
   .scroll-up-btn.hide {
-    right: -2rem;
+    right: -4rem;
   }
 }
 
