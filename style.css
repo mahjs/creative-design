@@ -653,6 +653,12 @@ body {
   .scroll-up-btn.hide {
     right: -5rem;
   }
+
+  @media (prefers-color-scheme: dark) {
+    story-btn-line {
+      color: #eee;
+    }
+  }
 }
 
 /* End of Responsive */
