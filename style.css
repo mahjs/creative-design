@@ -451,6 +451,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  right: -5rem;
 }
 .scroll-up-btn::selection {
   background-color: transparent;
@@ -458,7 +459,7 @@ body {
 .scroll-up-btn.hide {
   bottom: 5rem;
   right: -5rem;
-  transition: right 0.5s;
+  transition: all 0.5s;
 }
 
 .scroll-up-btn.show {
@@ -470,7 +471,6 @@ body {
 .scroll-up-btn.show:hover {
   background-color: #32e7ff;
 }
-
 /* Responsive */
 
 @media (max-width: 1400px) {
@@ -645,6 +645,11 @@ body {
   .scroll-up-btn {
     bottom: 2rem;
     right: 2rem;
+  }
+
+  .scroll-up-btn.show:hover,
+  .scrooll-up-btn::selection {
+    background-color: transparent;
   }
 }
 
