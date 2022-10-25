@@ -444,7 +444,6 @@ body {
 /* End of Section 4 */
 .scroll-up-btn {
   position: fixed;
-  bottom: 5rem;
   background-color: rgba(50, 231, 255, 0.8);
   width: 5rem;
   height: 5rem;
@@ -455,11 +454,13 @@ body {
   align-items: center;
 }
 .scroll-up-btn.hide {
+  bottom: 5rem;
   right: -5rem;
   transition: right 0.5s;
 }
 
 .scroll-up-btn.show {
+  bottom: 5rem;
   right: 5rem;
   transition: right 0.5s, background-color 0.3s, opacity 0.5s;
 }
