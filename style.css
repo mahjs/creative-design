@@ -452,6 +452,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.scroll-up-btn::selection {
+  background-color: transparent;
+}
 .scroll-up-btn.hide {
   bottom: 5rem;
   right: -5rem;
