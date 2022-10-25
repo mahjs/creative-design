@@ -644,12 +644,14 @@ body {
 
   .scroll-up-btn {
     bottom: 2rem;
-    right: 2rem;
+    right: -2rem;
   }
 
-  .scroll-up-btn.show:hover,
-  .scrooll-up-btn::selection {
-    background-color: transparent;
+  .scroll-up-btn.show {
+    right: 2rem;
+  }
+  .scroll-up-btn.hide {
+    right: -2rem;
   }
 }
 
